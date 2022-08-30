@@ -1,9 +1,7 @@
 from imutils.video import VideoStream
 from face_detector import find_faces, get_face_detector, get_onnx_face_detector, find_faces_onnx
-from eye_tracker import contouring, eye_on_mask, print_eye_pos, process_thresh
 from face_landmarks import get_square_box,get_landmark_model,detect_marks,get_dlib_landmark_model,detect_marks_dlib
 from imutils import face_utils
-from head import *
 import numpy as np
 import argparse
 import imutils
